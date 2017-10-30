@@ -28,6 +28,10 @@ print (e@[7]) "%d ";;
 
 print (List.tl ["abc";"ABC"]) "%s ";;
 
+print (List.rev e) "%d ";;
+
+if List.mem 1 e then print_int 1 else print_int 0;;
+
 (*
 let rec print_list = function
 [] -> ()
