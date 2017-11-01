@@ -30,7 +30,13 @@ print (List.tl ["abc";"ABC"]) "%s ";;
 
 print (List.rev e) "%d ";;
 
+let f = List.length e;;
+print_int f;
+print_newline();;
+
 if List.mem 1 e then print_int 1 else print_int 0;;
+
+let g = List.exists 1 e;;
 
 (*
 let rec print_list = function
