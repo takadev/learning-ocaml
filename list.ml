@@ -18,6 +18,8 @@ let d = [5; 2; 3; 4];;
 
 print_int(List.hd d);print_string "\n";;
 
+print d "%d ";;
+
 print(List.tl d) "%d ";;
 
 let e = 9::a;;
@@ -35,8 +37,6 @@ print_int f;
 print_newline();;
 
 if List.mem 1 e then print_int 1 else print_int 0;;
-
-let g = List.exists 1 e;;
 
 (*
 let rec print_list = function
